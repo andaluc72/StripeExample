@@ -1,0 +1,56 @@
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+footer::before {
+  content: "\A9 2023";
+  display: block;
+  font-size: 14px;
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.contenedor {
+  text-align: center;
+}
+
+.texto-grande {
+  font-size: 200%; 
+}
+
+.texto-mediano {
+  font-size: 150%; 
+}
+.texto-normal {
+  font-size: 150%; 
+}
+
+.centrar-texto {
+  text-align: center;
+  justify-content: center;
+}
+.justificar{
+  text-align: justify;
+}
+
+p {
+  line-height: 1; 
+}
+
+.contenedor2 {
+  width: 1000px;
+  height: 800px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+.input-mini {
+  width: 10px; /* Ancho personalizado */
+  height: 5px; /* Altura personalizada */
+}
